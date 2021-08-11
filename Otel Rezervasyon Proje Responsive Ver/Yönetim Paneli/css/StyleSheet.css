@@ -1,0 +1,231 @@
+﻿body {
+    margin:0 0 0 0;  
+}
+.banner {
+margin:0;
+width:100%;
+height:50px;
+color:#002B41;
+text-align:center;
+padding-top:20px;
+text-decoration:none;
+font:bold 20px 'Century Gothic';
+-webkit-box-shadow: 0 0 6px 4px #a1a1a1;
+-moz-box-shadow: 0 0 6px 4px #a1a1a1;
+box-shadow: 0 0 6px 4px #a1a1a1;
+}
+h1 {
+ color:#002B41;
+ font:bold 30px 'Century Gothic';
+ text-align:center;
+}
+.table {
+    width:900px;
+    height:100%;
+    text-align:center;
+    color:#002B41;
+    font:normal 15px 'Century Gothic';
+    border:1px solid #ff6a00;
+    padding:40px 40px 40px 40px;
+    border-bottom-right-radius:20px;
+    border-bottom-left-radius:20px
+}
+.txt {
+    padding-left:5px;
+width:200px;
+height:30px;
+font:normal 15px 'Century Gothic';
+border:1px solid #acacac;
+float:left
+}
+.txt:hover{
+    -webkit-box-shadow: 0 0 1px 1px #a1a1a1;
+-moz-box-shadow: 0 0 1px 1px #a1a1a1;
+box-shadow: 0 0 1px 1px #a1a1a1;
+}
+
+.drp{
+width:200px;
+height:36px;
+font:normal 15px 'Century Gothic';
+border-color:#acacac
+}
+.drp:hover{
+    -webkit-box-shadow: 0 0 2px 2px #dddbdb;
+-moz-box-shadow: 0 0 2px 2px #dddbdb;
+box-shadow: 0 0 2px 2px #dddbdb;
+
+}
+p {
+  color: #666;
+}
+
+.btn {
+    height: 40px;
+    overflow: hidden;
+    display: inline-block;
+     
+}
+    .btn:hover {
+     -webkit-box-shadow: 0 0 2px 2px #dddbdb;
+-moz-box-shadow: 0 0 2px 2px #dddbdb;
+box-shadow: 0 0 2px 2px #dddbdb;
+    }
+.rez {
+    background: #002B41;
+    color: #fff;
+    font: bold 14px/30px 'Century Gothic';
+    display: block;
+    padding:5px 0 0 0;
+    text-align: center;
+    text-decoration: none;
+    width: 200px;
+    height: 40px;
+    position: relative;
+    top: 0;
+    transition: 250ms top, 350ms left;
+}
+   .rez:before {
+      content: attr(data-hover);
+       padding:5px 0 0 0;
+      position: absolute;
+      top: 40px;
+      left: 0;
+      width: 100%;
+      background: #ff6a00;
+      color:#fff;
+      height: 40px;
+    }
+    .rez:hover {
+      top: -40px;
+    }
+
+.logo {
+width:50px;
+height:50px;
+position: absolute;
+margin-left:-60px;
+margin-top:-10px;
+    top: 20px;
+    left: 540px;
+}
+.solmenu {
+width:250px;
+height:700px;
+margin:40px 20px 0 0;
+-webkit-box-shadow: 0 0 1px 1px #002B41;
+-moz-box-shadow: 0 0 1px 1px #002B41;
+box-shadow: 0 0 21px 1px #002B41;
+background-color:#002B41;
+text-align:center;
+padding-left:5px;
+}
+.odalar {
+width:800px;
+height:270px;
+margin:40px 20px 0 0;
+-webkit-box-shadow: 0 0 4px 4px #dddbdb;
+-moz-box-shadow: 0 0 4px 4px #dddbdb;
+box-shadow: 0 0 4px 4px #dddbdb;
+}
+.odaResim {
+width:180px;height:180px;
+border:1px solid #002B41
+
+}
+.odaOzellik {
+
+width:200px;height:180px;
+border:1px solid #002B41
+}
+
+.islem {
+    background: #002B41;
+    color: #fff;
+    font: bold 14px/30px 'Century Gothic';
+    display: block;
+    padding:5px 0 0 0;
+    text-align: center;
+    text-decoration: none;
+    width: 100px;
+    height: 40px;
+    position: relative;
+    top: 0;
+    transition: 250ms top, 350ms left;
+}
+   .islem:before {
+      content: attr(data-hover);
+       padding:5px 0 0 0;
+      position: absolute;
+      top: 40px;
+      left: 0;
+      width: 100%;
+      background: #ff6a00;
+      color:#fff;
+      height: 40px;
+    }
+    .islem:hover {
+      top: -40px;
+    }
+.odaAciklama{
+
+width:200px;
+height:100px;border:1px solid #002B41
+}
+.odaFiyat {
+
+width:200px;
+height:50px;
+margin-bottom:10px;
+text-align:center;
+padding-top:20px;border:1px solid #002B41
+}
+.fiyat {
+    color: #002B41;
+    font: bold 14px/30px 'Century Gothic';
+   
+}
+.solMenuOzellikBaslik
+{
+    color: #fff;
+    font: bold 14px/30px 'Century Gothic';
+    text-transform:uppercase;
+    width:200px;
+    height:30px;
+    color:#fff;
+    background-color:#002B41;
+    margin-bottom:10px;
+}
+.solMenuOzellik {
+    width:245px;
+    height:755px;
+    color:#002B41;
+    background-color:#fff;
+}
+.chkOzellik {
+color:#002B41;
+font: bold 14px/30px 'Century Gothic';
+text-transform:uppercase;
+}
+    .chkOzellik:hover {
+    font-size:16px;
+    }
+.kisitla1 {
+min-height:175px;
+min-width:195px;
+max-height:175px;
+max-width:195px;
+
+}
+.kisitla2 {
+min-height:95px;
+min-width:195px;
+max-height:95px;
+max-width:195px;
+}
+.btnTakvim {
+    width:30px;
+    height:32px;
+    border:none;
+    background-image:url("images/takvim.png")
+}

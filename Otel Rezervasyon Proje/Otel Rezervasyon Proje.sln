@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.757
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Otel Rezervasyon Proje", ".", "{9FCB11AD-546B-49DA-849D-17C13D276B56}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_54397"
+		Debug.AspNetCompiler.PhysicalPath = "..\Otel Rezervasyon Proje\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54397\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_54397"
+		Release.AspNetCompiler.PhysicalPath = "..\Otel Rezervasyon Proje\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54397\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "54397"
+		SlnRelativePath = "..\Otel Rezervasyon Proje\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9FCB11AD-546B-49DA-849D-17C13D276B56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FCB11AD-546B-49DA-849D-17C13D276B56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CB3DB0D4-8DF5-4687-8AEA-5D7130FF171A}
+	EndGlobalSection
+EndGlobal

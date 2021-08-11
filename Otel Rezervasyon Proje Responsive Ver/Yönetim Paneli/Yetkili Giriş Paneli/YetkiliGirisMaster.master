@@ -1,0 +1,140 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="YetkiliGirisMaster.master.cs" Inherits="YetkiliGirisMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+      <title>Yetkili Giriş Paneli</title>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Glance Design Dashboard Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+
+
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+ 
+ <!-- js-->
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/modernizr.custom.js"></script>
+
+<!--fontlar-->
+<link href="//fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet"/>
+
+<!-- Menü için -->
+<script src="js/metisMenu.min.js"></script>
+<script src="js/custom.js"></script>
+
+    <link href="../css/SidebarNav.min.css" rel="stylesheet" />
+    <link href="../css/owl.carousel.css" rel="stylesheet" />
+    <link href="../css/jqcandlestick.css" rel="stylesheet" />
+    <link href="../css/font-awesome.css" rel="stylesheet" />
+    <link href="../css/export.css" rel="stylesheet" />
+    <link href="../css/custom.css" rel="stylesheet" />
+    <link href="../css/bootstrap.css" rel="stylesheet" />
+    <link href="../css/animate.css" rel="stylesheet" /> 
+    <link href="../css/style.css" rel="stylesheet" />
+<style>
+#chartdiv {
+  width: 100%;
+  height: 295px;
+}
+</style>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="cbp-spmenu-push">
+    <div class="main-content">
+    <form id="form1" runat="server" class="form-horizontal">
+    <div class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
+		<!--sol menü için-->
+		<aside class="sidebar-left">
+      <nav class="navbar navbar-inverse">
+          <div class="navbar-header">
+            <h1><a class="navbar-brand" href="Default.aspx">Yetkili Paneli<span class="dashboard_text">Dokuz Eylül Universitesi</span></a></h1>
+          </div>
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="sidebar-menu">
+              <li class="header" style="font-size:13px;">Sayfalar</li>
+              <li class="treeview">
+                <a href="otelKur.aspx"><span>Otel Kur</span></a>
+              </li>
+                <li class="treeview">
+                <a href="odaTipEkle.aspx"><span>Oda Tipi Ekleme</span></a>
+              </li>
+                 <li class="treeview">
+                <a href="odaTipDuzenle.aspx"><span>Oda Tipi Düzenleme</span></a>
+              </li>
+                 <li class="treeview">
+                <a href="odaEkle.aspx"><span>Oda Ekle</span></a>
+                     </li>
+                      <li class="treeview">
+                <a href="odaDuzenle.aspx"><span>Oda Düzenle</span></a>
+              </li>
+                      <li class="treeview">
+                <a href="anlasmaliSirketEkle.aspx"><span>Anlaşmalı Şirket Ekle</span></a>
+              </li>
+                  <li class="treeview">
+                <a href="anlasmaliSirketler.aspx"><span>Anlaşmalı Şirketler</span></a>
+              </li>
+                 <li class="treeview">
+                <a href="kullaniciEkle.aspx"><span>Kullanıcı Ekle</span></a>
+              </li>
+                  <br /><br />
+               <asp:Button runat="server" CausesValidation="False" Text="Çıkış Yap" ID="btnCikis" Width="100%" Height="200%"  BackColor="#222D32" ForeColor="#b8c7ce" BorderColor="#b8c7ce" BorderStyle="Dashed" OnClick="btnCikis_Click"/>
+            </ul>
+             
+          </div>
+          <!-- /.navbar-collapse -->
+      </nav>
+    </aside>
+	</div>
+      <div class="sticky-header header-section ">
+			<div class="header-left">
+
+				<div class="profile_details_left"><!--notifications of menu start -->
+					<ul class="nofitications-dropdown">
+						<li class="dropdown head-dpdn">
+					<p style="color:white">s</p>
+						</li>	
+					</ul>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+
+          <!-- Sağ taraf giriş yapan kişi ve yetkisi -->
+			<div class="header-right">
+				<div class="profile_details">		
+					<ul>
+						<li class="dropdown profile_details_drop">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+								<div class="profile_img">	
+									<div class="user-name">
+                                        <p>
+                                        <asp:Label runat="server" ID="lblKullaniciAd" Text="Kullanıcı Adı" style="color:goldenrod; font-size:medium"></asp:Label></p>
+										<p>
+                                        <asp:Label runat="server" ID="lblYetki" Text="Yetki" style="color:gray; font-size:small"></asp:Label></p>
+									</div>
+									<div class="clearfix"></div>	
+								</div>	
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="clearfix"> </div>				
+			</div>
+			<div class="clearfix"> </div>	
+           <!-- Sağ taraf giriş yapan kişi ve yetkisi -->
+
+		</div>
+
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+          </form>
+        </div>
+    
+    </body>
+</html>

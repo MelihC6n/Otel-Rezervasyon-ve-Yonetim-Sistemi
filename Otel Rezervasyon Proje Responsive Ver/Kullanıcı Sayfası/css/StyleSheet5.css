@@ -1,0 +1,319 @@
+﻿body {
+    margin: 0 0 0 0;
+}
+
+.banner {
+    margin: 0;
+    width: 100%;
+    height: 70px;
+    color: #002B41;
+    text-align: center;
+    padding-top: 20px;
+    text-decoration: none;
+    font: bold 20px 'Century Gothic';
+    -webkit-box-shadow: 0 0 6px 4px #a1a1a1;
+    -moz-box-shadow: 0 0 6px 4px #a1a1a1;
+    box-shadow: 0 0 6px 4px #a1a1a1;
+}
+
+.p {
+    margin-top: 0px;
+    color: #002B41;
+    font: bold 20px 'Century Gothic';
+}
+
+h1 {
+    color: #002B41;
+    font: bold 30px 'Century Gothic';
+    text-align: center;
+}
+
+.table {
+    width: 900px;
+    height: 100%;
+    text-align: center;
+    color: #002B41;
+    font: normal 15px 'Century Gothic';
+    border: 2px solid #ff6a00;
+    padding: 40px 40px 40px 40px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px
+}
+
+.txt {
+    padding-left: 5px;
+    text-align: center;
+    width: auto;
+    height: 30px;
+    font: normal 15px 'Century Gothic';
+    border: 1px solid #002B41;
+    float: left;
+    margin-top: 5px;
+}
+
+    .txt:hover {
+        -webkit-box-shadow: 0 0 4px 4px #dddbdb;
+        -moz-box-shadow: 0 0 4px 4px #dddbdb;
+        box-shadow: 0 0 4px 4px #dddbdb;
+    }
+
+.drp {
+    width: auto;
+    max-width: 160px;
+    margin-left: -35px;
+    height: 35px;
+    padding-left: 15px;
+    font: normal 15px 'Century Gothic';
+    border-color: #acacac;
+}
+
+    .drp:hover {
+        -webkit-box-shadow: 0 0 2px 2px #dddbdb;
+        -moz-box-shadow: 0 0 2px 2px #dddbdb;
+        box-shadow: 0 0 2px 2px #dddbdb;
+    }
+
+.drpKisiSayisi {
+    width: 160px;
+    height: 30px;
+    padding-left: 70px;
+    margin-top: 5px;
+    font: normal 15px 'Century Gothic';
+    border-color: #002B41;
+}
+
+    .drpKisiSayisi:hover {
+        -webkit-box-shadow: 0 0 4px 4px #dddbdb;
+        -moz-box-shadow: 0 0 4px 4px #dddbdb;
+        box-shadow: 0 0 4px 4px #dddbdb;
+    }
+
+.btn {
+    height: 40px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+    .btn:hover {
+        -webkit-box-shadow: 0 0 2px 2px #dddbdb;
+        -moz-box-shadow: 0 0 2px 2px #dddbdb;
+        box-shadow: 0 0 2px 2px #dddbdb;
+    }
+
+.rez {
+    background: #002B41;
+    color: #fff;
+    font: bold 14px/30px 'Century Gothic';
+    display: block;
+    padding: 5px 0 0 0;
+    text-align: center;
+    text-decoration: none;
+    width: 200px;
+    height: 40px;
+    position: relative;
+    top: 0;
+    transition: 250ms top, 350ms left;
+}
+
+    .rez:before {
+        content: attr(data-hover);
+        padding: 5px 0 0 0;
+        position: absolute;
+        top: 40px;
+        left: 0;
+        width: 100%;
+        background: #ff6a00;
+        color: #fff;
+        height: 40px;
+    }
+
+    .rez:hover {
+        top: -40px;
+    }
+
+.logo {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-left: -180px;
+    margin-top: -10px;
+    top: 20px;
+}
+
+.solmenu {
+    width: 250px;
+    height: 700px;
+    margin: 40px 20px 0 0;
+    -webkit-box-shadow: 0 0 1px 1px #002B41;
+    -moz-box-shadow: 0 0 1px 1px #002B41;
+    box-shadow: 0 0 21px 1px #002B41;
+    background-color: #002B41;
+    text-align: center;
+    padding-left: 5px;
+}
+
+.odalar {
+    width: 800px;
+    height: 270px;
+    margin: 40px 20px 20px 0;
+    -webkit-box-shadow: 0 0 4px 4px #dddbdb;
+    -moz-box-shadow: 0 0 4px 4px #dddbdb;
+    box-shadow: 0 0 4px 4px #dddbdb;
+}
+
+.odaResim {
+    width: 195px;
+    height: 175px;
+    border: 1px solid #002B41
+}
+
+.odaOzellik {
+    width: 200px;
+    height: 180px;
+    border: 1px solid #002B41
+}
+
+.islem {
+    background: #002B41;
+    color: #fff;
+    font: bold 14px/30px 'Century Gothic';
+    display: block;
+    padding: 10px 0 0 0;
+    text-align: center;
+    text-decoration: none;
+    width: 120px;
+    height: 80px;
+    position: relative;
+    top: 0;
+    transition: 250ms top, 350ms left;
+}
+
+    .islem:before {
+        content: attr(data-hover);
+        padding: 5px 0 0 0;
+        position: absolute;
+        top: 52px;
+        left: 0;
+        width: 100%;
+        background: #ff6a00;
+        color: #fff;
+        height: 100%;
+    }
+
+    .islem:hover {
+        top: -40px;
+    }
+
+.odaAciklama {
+    width: 200px;
+    height: 100px;
+    border: 1px solid #002B41
+}
+
+.odaFiyat {
+    width: 200px;
+    height: 65px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-top: 5px;
+    border: 1px solid #002B41
+}
+
+.fiyat {
+    color: #002B41;
+    font: bold 14px/30px 'Century Gothic';
+}
+
+.solMenuOzellikBaslik {
+    color: #fff;
+    font: bold 14px/30px 'Century Gothic';
+    text-transform: uppercase;
+    width: 200px;
+    height: 30px;
+    color: #fff;
+    background-color: #002B41;
+    margin-bottom: 10px;
+}
+
+.solMenuOzellik {
+    width: 245px;
+    height: 655px;
+    color: #002B41;
+    background-color: #fff;
+}
+
+.chkOzellik {
+    color: #002B41;
+    font: bold 14px/30px 'Century Gothic';
+    text-transform: uppercase;
+}
+
+    .chkOzellik:hover {
+        font-size: 16px;
+    }
+
+.kisitla1 {
+    min-height: 175px;
+    min-width: 195px;
+    max-height: 175px;
+    max-width: 195px;
+}
+
+.kisitla2 {
+    min-height: 95px;
+    min-width: 195px;
+    max-height: 95px;
+    max-width: 195px;
+}
+
+.btnTakvim {
+    width: 30px;
+    height: 32px;
+    border: none;
+    background-image: url("images/takvim.png")
+}
+
+.rezSorgulamaGovde {
+    width: auto;
+    height: auto;
+    -webkit-box-shadow: 0 0 4px 4px #dddbdb;
+    -moz-box-shadow: 0 0 4px 4px #dddbdb;
+    box-shadow: 0 0 4px 4px #dddbdb;
+    border: 1px solid #dddbdb;
+    margin-top: 40px;
+    background-color: #002B41;
+    padding: 0px 2px 5px 2px;
+}
+
+.rezSorgula {
+    padding: 20px 0 10px 20px;
+    width: auto;
+    height: auto;
+    background-color: #fff;
+}
+
+.rezervasyonSorgulaTable {
+    width: auto;
+    height: auto;
+    text-align: center;
+    color: #002B41;
+    font: normal 17px 'Century Gothic';
+    padding: 20px 0 0 0;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px
+}
+
+.tableBaslik {
+    font: bold 17px 'Century Gothic';
+    color: #002B41;
+    margin-top:20px;
+}
+
+.logoAdmin {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-left: 45%;
+    margin-top: -10px;
+    top: 20px;
+}
